@@ -51,6 +51,7 @@ class postfix {
     name   => $lsbdistcodename ? {
       "squeeze" => "bsd-mailx",
       "lucid"   => "bsd-mailx",
+      "natty"   => "bsd-mailx",
       default   => "mailx",
     },
   }
